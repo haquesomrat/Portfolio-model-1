@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container {
+    padding: 100px 133px 0;
+    background-color: #E5E5E5;
+    /* background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 227px 227px;
+    background-position: bottom left; */
+}
+
+/* --------- hero-section  -------- */
+
+
+#header {
+    display: flex;
+    padding-bottom: 100px;
+
+}
+
+.big-text span {
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    line-height: 80px;
+}
+
+.big-text p {
+    font-size: 60px;
+    line-height: 80px;
+}
+
+small {
+    color: #3E3E3E;
+    font-weight: 500;
+}
+
+.blue-text {
+    color: #4882ff;
+}
+
+.green-text {
+    color: #42ee7b;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+    padding-left: 20%;
+}
+
+.big-text {
+    display: flex;
+}
+
+.vl {
+    border: 1px solid #8a37f8;
+    background-color: #8a37f8;
+    border-radius: 3px;
+    height: 124px;
+    padding: 1px;
+    margin: 20px 10px 20px 0;
+}
+
+.btn {
+    background: #7b7ce0;
+    text-align: center;
+    padding: 12px 37px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 33px 0;
+    gap: 10px;
+}
+
+.btn:hover {
+    background: #01eeff5e;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+}
+
+/* -------- Missions -------- */
+
+.mission-text {
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+.mission-text span {
+    color: #42ee7b;
+}
+
+.boxes {
+    display: flex;
+    margin: 46px 0 86px 0;
+}
+
+.box-1 {
+    width: 360px;
+    height: 376px;
+    padding: 25px 13px 45px 32px;
+    background-color: #4F9DA61A;
+    border: none;
+    border-radius: 6px;
+    margin-right: 24px;
+
+}
+
+.box-2 {
+    width: 360px;
+    height: 376px;
+    padding: 25px 13px 45px 32px;
+    background-color: #FF59591A;
+    border: none;
+    border-radius: 6px;
+    margin-right: 24px;
+
+}
+
+.box-3 {
+    width: 360px;
+    height: 376px;
+    padding: 25px 13px 45px 32px;
+    background-color: #FFF4D6;
+    border: none;
+    border-radius: 6px;
+    margin-right: 24px;
+
+}
+
+.box-img {
+    height: 141px;
+    width: 141px;
+
+}
+
+.box-title {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 235px 16px 0;
+}
+
+/* ------- limitations ------ */
+
+#limitations {
+    display: flex;
+    padding: 50px 0;
+}
+
+.limit-img {
+    height: 400px;
+    width: 400px;
+    margin-right: 72px;
+}
+
+.limit-text {
+    padding: 60px 0;
+}
+
+.limit-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #333333;
+    margin-bottom: 17px;
+}
+
+/* ------- Communities ------- */
+
+
+#communities {
+    display: flex;
+    margin: 100px 0;
+}
+
+.communities-img {
+    height: 400px;
+    width: 400px;
+    margin-left: 72px;
+}
+
+
+/* ---- Bonus --- */
+
+.bonus-content {
+    display: flex;
+}
+
+.bonus-content div {
+    flex-basis: 50%;
+}
+
+.bonus-head {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 74px;
+}
+
+#bonus span {
+    color: #FFAD5A;
+}
+
+.bonus-img {
+    height: 471px;
+    width: 229px;
+    margin: 135px 201px 94px 171px;
+}
+
+.bonus-text {
+    margin: 181px 2px 186px 0;
+}
+
+.bonus-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+.bonus-text p {
+    padding: 16px 0;
+    line-height: 30px;
+    color: #3E3E3E;
+}
+
+
+/* --- footer --- */
+#footer {
+    width: 100%;
+    height: 177px;
+    background: #0B0D17;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 39px 0 46px 0;
+}
+
+.footer-big {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+.footer-big span {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+
+.footer-small {
+    font-size: 14px;
+    margin: 24px 0 46px 0;
+}
